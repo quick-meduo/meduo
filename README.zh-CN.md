@@ -1,5 +1,7 @@
 [English](./README.md) | 简体中文
 
+A quick java web application framework based on Spring Cloud
+
 <h1 align="center">Ant Design Pro Vue</h1>
 <div align="center">
 An out-of-box UI solution for enterprise applications as a Vue boilerplate. based on  <a href="https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/" target="_blank">Ant Design of Vue</a>
