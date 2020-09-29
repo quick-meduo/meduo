@@ -1,0 +1,1138 @@
+[2020-07-29 12:28:53] This is codeql database create jstest --language=javascript
+[2020-07-29 12:28:53] Log file was started late.
+[2020-07-29 12:28:53] Using autobuild script /codeql/codetool/javascript/tools/autobuild.sh.
+[2020-07-29 12:28:53] [DETAILS] database create> Detected autobuild command: /codeql/codetool/javascript/tools/autobuild.sh.
+[2020-07-29 12:28:53] [PROGRESS] database create> Running command [/codeql/codetool/javascript/tools/autobuild.sh] in /opt/gaosg/Desktop/vue/meduo/frontend.
+[2020-07-29 12:28:53] Running plumbing command: codeql database trace-command --working-dir=/opt/gaosg/Desktop/vue/meduo/frontend -- /opt/gaosg/Desktop/vue/meduo/frontend/jstest /codeql/codetool/javascript/tools/autobuild.sh
+[2020-07-29 12:28:53] [PROGRESS] database trace-command> /opt/gaosg/Desktop/vue/meduo/frontend/jstest: Running in /opt/gaosg/Desktop/vue/meduo/frontend: [/codeql/codetool/javascript/tools/autobuild.sh]
+[2020-07-29 12:28:54] [build] Single-threaded extraction.
+[2020-07-29 12:29:12] [build] Found Node.js at: node
+[2020-07-29 12:29:12] [build] Found Node.js version: v12.3.1
+[2020-07-29 12:29:12] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/rxjs/src/tsconfig.json
+[2020-07-29 12:29:20] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/rxjs/src/tsconfig.json (7885 ms)
+[2020-07-29 12:29:20] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/_uri-js@4.2.2@uri-js/tsconfig.json
+[2020-07-29 12:29:22] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/_uri-js@4.2.2@uri-js/tsconfig.json (2340 ms)
+[2020-07-29 12:29:23] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/uri-js/tsconfig.json
+[2020-07-29 12:29:24] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/uri-js/tsconfig.json (1307 ms)
+[2020-07-29 12:29:24] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/dotenv/types/tsconfig.json
+[2020-07-29 12:29:25] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/dotenv/types/tsconfig.json (1629 ms)
+[2020-07-29 12:29:26] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/node-cache/tsconfig.json
+[2020-07-29 12:29:27] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/node-cache/tsconfig.json (1382 ms)
+[2020-07-29 12:29:27] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/vue-template-compiler/types/tsconfig.json
+[2020-07-29 12:29:28] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/vue-template-compiler/types/tsconfig.json (1283 ms)
+[2020-07-29 12:29:28] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/rx/ts/tsconfig.json
+[2020-07-29 12:29:31] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/rx/ts/tsconfig.json (2574 ms)
+[2020-07-29 12:29:31] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/parchment/tsconfig.json
+[2020-07-29 12:29:32] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/parchment/tsconfig.json (1487 ms)
+[2020-07-29 12:29:32] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/@antv/g2/tsconfig.json
+[2020-07-29 12:29:34] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/@antv/g2/tsconfig.json (1378 ms)
+[2020-07-29 12:29:34] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/chrome-trace-event/tsconfig.json
+[2020-07-29 12:29:35] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/chrome-trace-event/tsconfig.json (1391 ms)
+[2020-07-29 12:29:35] [build] Opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/vue-svg-icon-loader/tsconfig.json
+[2020-07-29 12:29:35] [build] Done opening project /opt/gaosg/Desktop/vue/meduo/frontend/node_modules/vue-svg-icon-loader/tsconfig.json (118 ms)
+[2020-07-29 12:29:35] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/permissions.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/permissions.js (236 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/request.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/request.js (123 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/axios.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/axios.js (17 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/domUtil.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/domUtil.js (27 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/bcryptwrapper.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/bcryptwrapper.js (12 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/util.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/util.js (97 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/helper/permission.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/helper/permission.js (90 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/filter.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/filter.js (77 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/mixin.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/mixin.js (46 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/device.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/utils/device.js (23 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/permission.js
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/permission.js (75 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/App.vue
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/App.vue (103 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/UserLayout.vue
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/UserLayout.vue (39 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/BasicLayout.vue
+[2020-07-29 12:29:36] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/BasicLayout.vue (108 ms)
+[2020-07-29 12:29:36] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/RouteView.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/RouteView.vue (32 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/BlankLayout.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/BlankLayout.vue (13 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/PageView.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/PageView.vue (91 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/layouts/index.js (3 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/config/defaultSettings.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/config/defaultSettings.js (23 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/config/router.config.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/config/router.config.js (167 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/main.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/main.js (6 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Result/Result.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Result/Result.vue (9 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Result/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Result/index.js (2 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/StandardFormRow/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/StandardFormRow/index.js (1 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/StandardFormRow/StandardFormRow.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/StandardFormRow/StandardFormRow.vue (8 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Ellipsis/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Ellipsis/index.js (2 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Ellipsis/Ellipsis.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Ellipsis/Ellipsis.vue (13 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Trend/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Trend/index.js (1 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Trend/Trend.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Trend/Trend.vue (5 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/DescriptionList/DescriptionList.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/DescriptionList/DescriptionList.vue (33 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/DescriptionList/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/DescriptionList/index.js (5 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/SettingItem.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/SettingItem.vue (4 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/index.js (2 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/themeColor.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/themeColor.js (9 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/SettingDrawer.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/SettingDrawer.vue (107 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/settingConfig.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/SettingDrawer/settingConfig.js (10 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/NoticeIcon/NoticeIcon.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/NoticeIcon/NoticeIcon.vue (7 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/NoticeIcon/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/NoticeIcon/index.js (1 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/MultiTab/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/MultiTab/index.js (15 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/MultiTab/events.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/MultiTab/events.js (1 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/MultiTab/MultiTab.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/MultiTab/MultiTab.vue (86 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/NumberInfo/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/NumberInfo/index.js (3 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/NumberInfo/NumberInfo.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/NumberInfo/NumberInfo.vue (5 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/Breadcrumb.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/Breadcrumb.vue (10 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/LangSelect.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/LangSelect.vue (4 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/Logo.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/Logo.vue (9 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/HeadInfo.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/HeadInfo.vue (10 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/index.js (1 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/DetailList.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/DetailList.vue (2 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/TwoStepCaptcha.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/TwoStepCaptcha.vue (47 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/UserMenu.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/tools/UserMenu.vue (14 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/PageHeader/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/PageHeader/index.js (1 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/PageHeader/PageHeader.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/PageHeader/PageHeader.vue (14 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Menu/menu.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Menu/menu.js (77 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Menu/SideMenu.vue
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Menu/SideMenu.vue (13 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Menu/index.js
+[2020-07-29 12:29:37] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Menu/index.js (2 ms)
+[2020-07-29 12:29:37] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Menu/menu.render.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Menu/menu.render.js (96 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/GlobalHeader/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/GlobalHeader/index.js (7 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/GlobalHeader/GlobalHeader.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/GlobalHeader/GlobalHeader.vue (40 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/CountDown/CountDown.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/CountDown/CountDown.vue (58 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/CountDown/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/CountDown/index.js (2 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/ArticleListContent/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/ArticleListContent/index.js (2 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/ArticleListContent/ArticleListContent.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/ArticleListContent/ArticleListContent.vue (10 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/index.js (21 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Exception/ExceptionPage.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Exception/ExceptionPage.vue (11 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Exception/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Exception/index.js (1 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Exception/type.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Exception/type.js (3 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Editor/QuillEditor.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Editor/QuillEditor.vue (7 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Editor/WangEditor.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Editor/WangEditor.vue (7 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/TextArea/index.jsx
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/TextArea/index.jsx (22 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/IconSelector/IconSelector.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/IconSelector/IconSelector.vue (11 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/IconSelector/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/IconSelector/index.js (1 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/IconSelector/icons.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/IconSelector/icons.js (22 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/FooterToolbar/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/FooterToolbar/index.js (1 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/FooterToolbar/FooterToolBar.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/FooterToolbar/FooterToolBar.vue (4 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/AvatarList/Item.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/AvatarList/Item.vue (5 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/AvatarList/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/AvatarList/index.js (1 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/AvatarList/List.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/AvatarList/List.vue (28 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/PageLoading/index.jsx
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/PageLoading/index.jsx (32 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/MiniProgress.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/MiniProgress.vue (7 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/Bar.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/Bar.vue (7 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/TagCloud.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/TagCloud.vue (30 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/MiniSmoothArea.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/MiniSmoothArea.vue (3 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/Liquid.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/Liquid.vue (4 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/Radar.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/Radar.vue (11 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/RankList.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/RankList.vue (5 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/MiniBar.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/MiniBar.vue (10 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/TransferBar.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/TransferBar.vue (8 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/MiniArea.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/MiniArea.vue (10 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/ChartCard.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/ChartCard.vue (3 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/Trend.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Charts/Trend.vue (13 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Table/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Table/index.js (126 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Tree/Tree.jsx
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Tree/Tree.jsx (52 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/GlobalFooter/GlobalFooter.vue
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/GlobalFooter/GlobalFooter.vue (60 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/GlobalFooter/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/GlobalFooter/index.js (1 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/TagSelect/TagSelectOption.jsx
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/TagSelect/TagSelectOption.jsx (6 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/TagSelect/index.jsx
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/TagSelect/index.jsx (36 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/_util/util.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/_util/util.js (8 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Search/GlobalSearch.jsx
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/components/Search/GlobalSearch.jsx (35 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/permission-service.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/permission-service.js (2 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/login.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/login.js (5 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/index.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/index.js (13 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/user.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/user.js (9 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/manage.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/manage.js (18 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/feature-service.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/api/feature-service.js (12 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/router/generator-routers.js
+[2020-07-29 12:29:38] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/router/generator-routers.js (4 ms)
+[2020-07-29 12:29:38] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/router/index.js
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/router/index.js (20 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/BaseSetting.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/BaseSetting.vue (6 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Binding.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Binding.vue (13 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/AvatarModal.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/AvatarModal.vue (34 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Index.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Index.vue (8 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Security.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Security.vue (52 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Notification.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Notification.vue (7 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Custom.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/settings/Custom.vue (32 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/Index.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/Index.vue (23 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/page/App.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/page/App.vue (7 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/page/Project.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/page/Project.vue (11 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/page/index.js
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/page/index.js (4 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/page/Article.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/account/center/page/Article.vue (8 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/RegistryAdmin.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/RegistryAdmin.vue (12 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/DruidAdmin.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/DruidAdmin.vue (13 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/ZipkinAdmin.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/ZipkinAdmin.vue (8 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/BootAdmin.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/BootAdmin.vue (16 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/HystrixAdmin.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/services/HystrixAdmin.vue (22 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/dashboard/TestWork.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/dashboard/TestWork.vue (18 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/dashboard/Monitor.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/dashboard/Monitor.vue (4 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/dashboard/Workplace.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/dashboard/Workplace.vue (48 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/dashboard/Analysis.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/dashboard/Analysis.vue (94 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/exception/403.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/exception/403.vue (1 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/exception/500.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/exception/500.vue (1 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/exception/404.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/exception/404.vue (1 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/result/Success.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/result/Success.vue (25 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/result/Error.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/result/Error.vue (3 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/advancedForm/AdvancedForm.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/advancedForm/AdvancedForm.vue (128 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/advancedForm/RepositoryForm.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/advancedForm/RepositoryForm.vue (20 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/advancedForm/TaskForm.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/advancedForm/TaskForm.vue (12 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/stepForm/StepForm.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/stepForm/StepForm.vue (12 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/stepForm/Step1.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/stepForm/Step1.vue (13 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/stepForm/Step3.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/stepForm/Step3.vue (7 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/stepForm/Step2.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/stepForm/Step2.vue (16 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/BasicForm.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/form/BasicForm.vue (12 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/CardList.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/CardList.vue (13 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/TableList.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/TableList.vue (77 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/QueryList.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/QueryList.vue (12 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/modules/StepByStepModal.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/modules/StepByStepModal.vue (32 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/modules/CreateForm.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/modules/CreateForm.vue (15 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/modules/TaskForm.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/modules/TaskForm.vue (16 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/table/List.vue
+[2020-07-29 12:29:39] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/table/List.vue (40 ms)
+[2020-07-29 12:29:39] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/table/Edit.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/table/Edit.vue (56 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/StandardList.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/StandardList.vue (24 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/Projects.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/Projects.vue (30 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/SearchLayout.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/SearchLayout.vue (21 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/components/IconText.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/components/IconText.vue (3 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/components/CardInfo.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/components/CardInfo.vue (13 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/Applications.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/Applications.vue (12 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/Article.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/list/search/Article.vue (20 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/user/NewUser.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/user/NewUser.vue (13 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/user/RegisterResult.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/user/RegisterResult.vue (7 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/user/Register.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/user/Register.vue (84 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/user/Login.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/user/Login.vue (68 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/CreateFeatureGroupForm.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/CreateFeatureGroupForm.vue (41 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/FeatureGrant.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/FeatureGrant.vue (98 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/FeatureGroup.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/FeatureGroup.vue (158 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/CreateFeatureForm.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/CreateFeatureForm.vue (50 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/FeatureList.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/FeatureList.vue (173 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/CreatePermGroupForm.vue
+[2020-07-29 12:29:40] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/permission/CreatePermGroupForm.vue (33 ms)
+[2020-07-29 12:29:40] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/user/UserList.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/system/user/UserList.vue (251 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/profile/basic/Index.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/profile/basic/Index.vue (42 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/profile/advanced/Advanced.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/profile/advanced/Advanced.vue (42 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/role/RoleList.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/role/RoleList.vue (53 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/RoleList.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/RoleList.vue (40 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/IconSelectorView.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/IconSelectorView.vue (5 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/SwaggerAdmin.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/SwaggerAdmin.vue (5 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/modules/OrgModal.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/modules/OrgModal.vue (34 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/modules/RoleModal.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/modules/RoleModal.vue (46 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/PermissionList.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/PermissionList.vue (30 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/TreeList.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/TreeList.vue (31 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/UserList.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/UserList.vue (21 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/TableInnerEditList.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/other/TableInnerEditList.vue (80 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/404.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/404.vue (3 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/Home.vue
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/views/Home.vue (23 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/getters.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/getters.js (23 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/mutation-types.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/mutation-types.js (3 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/modules/permission.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/modules/permission.js (12 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/modules/async-router.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/modules/async-router.js (4 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/modules/user.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/modules/user.js (22 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/modules/app.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/modules/app.js (43 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/index.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/store/index.js (2 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/directives/action.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/directives/action.js (26 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/use.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/use.js (4 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/icons.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/icons.js (13 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/lazy_use.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/lazy_use.js (3 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/lazy_lib/components_use.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/lazy_lib/components_use.js (16 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/bootstrap.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/core/bootstrap.js (22 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/article.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/article.js (13 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/auth.js
+[2020-07-29 12:29:41] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/auth.js (10 ms)
+[2020-07-29 12:29:41] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/other.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/other.js (204 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/user.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/user.js (189 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/manage.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/manage.js (60 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/tagCloud.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/services/tagCloud.js (91 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/index.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/index.js (16 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/mockHelper.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/src/mock/mockHelper.js (7 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/tests/unit/.eslintrc.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/tests/unit/.eslintrc.js (14 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/.travis.yml
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/.travis.yml (67 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/babel.config.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/babel.config.js (4 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/config/plugin.config.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/config/plugin.config.js (7 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/public/index.html
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/public/index.html (5 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/public/loading/option2/html_code_segment.html
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/public/loading/option2/html_code_segment.html (8 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/public/loading/loading.html
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/public/loading/loading.html (1 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/postcss.config.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/postcss.config.js (8 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/jest.config.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/jest.config.js (2 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/vue.config.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/vue.config.js (11 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/.eslintrc.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/.eslintrc.js (17 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/package.json
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/package.json (4 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/jstest/codeql-database.yml
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/jstest/codeql-database.yml (2 ms)
+[2020-07-29 12:29:42] [build] Extracting /opt/gaosg/Desktop/vue/meduo/frontend/webstorm.config.js
+[2020-07-29 12:29:42] [build] Done extracting /opt/gaosg/Desktop/vue/meduo/frontend/webstorm.config.js (30 ms)
+[2020-07-29 12:29:42] [build-err] No externs trap cache found
+[2020-07-29 12:29:42] [build] Extracting /codeql/codetool/javascript/tools/data/externs/vm/jsshell.js
+[2020-07-29 12:29:42] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/vm/jsshell.js (116 ms)
+[2020-07-29 12:29:42] [build] Extracting /codeql/codetool/javascript/tools/data/externs/vm/v8.js
+[2020-07-29 12:29:42] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/vm/v8.js (9 ms)
+[2020-07-29 12:29:42] [build] Extracting /codeql/codetool/javascript/tools/data/externs/vm/spidermonkey.js
+[2020-07-29 12:29:42] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/vm/spidermonkey.js (2 ms)
+[2020-07-29 12:29:42] [build] Extracting /codeql/codetool/javascript/tools/data/externs/vm/rhino.js
+[2020-07-29 12:29:42] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/vm/rhino.js (17 ms)
+[2020-07-29 12:29:42] [build] Extracting /codeql/codetool/javascript/tools/data/externs/lib/jquery-3.2.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/lib/jquery-3.2.js (266 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/lib/should.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/lib/should.js (29 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/lib/bdd.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/lib/bdd.js (7 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/lib/vows.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/lib/vows.js (47 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_encoding.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_encoding.js (4 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_permissions.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_permissions.js (9 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/webgl.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/webgl.js (402 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_pointer_events.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_pointer_events.js (17 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/ie_vml.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/ie_vml.js (10 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_touch_event.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_touch_event.js (27 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_indexeddb.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_indexeddb.js (109 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_batterystatus.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_batterystatus.js (4 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_xml.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_xml.js (58 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_event.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_event.js (7 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_gamepad.js
+[2020-07-29 12:29:43] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_gamepad.js (35 ms)
+[2020-07-29 12:29:43] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_serviceworker.js
+[2020-07-29 12:29:44] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_serviceworker.js (56 ms)
+[2020-07-29 12:29:44] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/iphone.js
+[2020-07-29 12:29:44] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/iphone.js (24 ms)
+[2020-07-29 12:29:44] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_css.js
+[2020-07-29 12:29:44] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_css.js (284 ms)
+[2020-07-29 12:29:44] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/chrome.js
+[2020-07-29 12:29:44] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/chrome.js (79 ms)
+[2020-07-29 12:29:44] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_dom.js
+[2020-07-29 12:29:44] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_dom.js (106 ms)
+[2020-07-29 12:29:44] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_css3d.js
+[2020-07-29 12:29:44] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_css3d.js (20 ms)
+[2020-07-29 12:29:44] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_range.js
+[2020-07-29 12:29:44] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_range.js (32 ms)
+[2020-07-29 12:29:44] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_rtc.js
+[2020-07-29 12:29:44] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_rtc.js (353 ms)
+[2020-07-29 12:29:44] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/ie_event.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/ie_event.js (63 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_css.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_css.js (65 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/page_visibility.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/page_visibility.js (12 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_device_sensor_event.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_device_sensor_event.js (19 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/ie_dom.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/ie_dom.js (194 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_dom3.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_dom3.js (125 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/streamsapi.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/streamsapi.js (66 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/window.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/window.js (28 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_usercontent.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_usercontent.js (7 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/ie_css.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/ie_css.js (32 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_midi.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_midi.js (43 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/whatwg_encoding.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/whatwg_encoding.js (4 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_elementtraversal.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_elementtraversal.js (11 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/webstorage.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/webstorage.js (9 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_xml.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_xml.js (4 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_geolocation.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_geolocation.js (26 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_anim_timing.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_anim_timing.js (8 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/fetchapi.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/fetchapi.js (65 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/intl.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/intl.js (19 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_navigation_timing.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_navigation_timing.js (25 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/url.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/url.js (11 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_dom4.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_dom4.js (3 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/mediasource.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/mediasource.js (27 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_event3.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_event3.js (10 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_screen_orientation.js
+[2020-07-29 12:29:45] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_screen_orientation.js (7 ms)
+[2020-07-29 12:29:45] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_dom1.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_dom1.js (149 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_event.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_event.js (56 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_requestidlecallback.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_requestidlecallback.js (4 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_ext.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/gecko_ext.js (1 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_event.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_event.js (2 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_notifications.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_notifications.js (15 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/html5.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/html5.js (316 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_dom2.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_dom2.js (248 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/fileapi.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/fileapi.js (66 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_dom.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_dom.js (47 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/flash.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/flash.js (25 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_selectors.js
+[2020-07-29 12:29:46] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_selectors.js (8 ms)
+[2020-07-29 12:29:46] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_css.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/webkit_css.js (180 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_webcrypto.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/web/w3c_webcrypto.js (56 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/domain.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/domain.js (13 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/sys.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/sys.js (2 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/cluster.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/cluster.js (136 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/module.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/module.js (7 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/dgram.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/dgram.js (14 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/https.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/https.js (15 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/querystring.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/querystring.js (8 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/readline.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/readline.js (21 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/assert.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/assert.js (12 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/repl.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/repl.js (10 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/assert_legacy.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/assert_legacy.js (1 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/tty.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/tty.js (33 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/zlib.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/zlib.js (43 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/vm.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/vm.js (14 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/constants.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/constants.js (123 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/http.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/http.js (44 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/dns.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/dns.js (22 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/util.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/util.js (19 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/console.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/console.js (1 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/path.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/path.js (25 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/url.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/url.js (6 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/child_process.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/child_process.js (62 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/crypto.js
+[2020-07-29 12:29:47] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/crypto.js (127 ms)
+[2020-07-29 12:29:47] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/buffer.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/buffer.js (55 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/os.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/os.js (43 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/v8.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/v8.js (5 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/timers.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/timers.js (13 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/net.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/net.js (88 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/punycode.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/punycode.js (8 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/process.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/process.js (2 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/events.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/events.js (14 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/tls.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/tls.js (40 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/fs.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/fs.js (184 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/string_decoder.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/string_decoder.js (14 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/stream.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/stream.js (79 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/nodejs/globals.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/nodejs/globals.js (176 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/es/proxy.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/es/proxy.js (2 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/es/es2016.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/es/es2016.js (3 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/es/es6.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/es/es6.js (133 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/es/es2017.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/es/es2017.js (10 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/es/es6_collections.js
+[2020-07-29 12:29:48] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/es/es6_collections.js (22 ms)
+[2020-07-29 12:29:48] [build] Extracting /codeql/codetool/javascript/tools/data/externs/es/es3.js
+[2020-07-29 12:29:49] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/es/es3.js (211 ms)
+[2020-07-29 12:29:49] [build] Extracting /codeql/codetool/javascript/tools/data/externs/es/es5.js
+[2020-07-29 12:29:49] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/es/es5.js (31 ms)
+[2020-07-29 12:29:49] [build] Extracting /codeql/codetool/javascript/tools/data/externs/es/intl.js
+[2020-07-29 12:29:49] [build] Done extracting /codeql/codetool/javascript/tools/data/externs/es/intl.js (27 ms)
+[2020-07-29 12:29:49] Plumbing command codeql database trace-command completed.
+[2020-07-29 12:29:49] [PROGRESS] database create> Finalizing database at /opt/gaosg/Desktop/vue/meduo/frontend/jstest.
+[2020-07-29 12:29:49] Running plumbing command: codeql database finalize --mode=normal -- /opt/gaosg/Desktop/vue/meduo/frontend/jstest
+[2020-07-29 12:29:49] [PROGRESS] database finalize> Running TRAP import for CodeQL database at /opt/gaosg/Desktop/vue/meduo/frontend/jstest...
+[2020-07-29 12:29:49] Running plumbing command: codeql dataset import --dbscheme=/codeql/codetool/javascript/semmlecode.javascript.dbscheme -- /opt/gaosg/Desktop/vue/meduo/frontend/jstest/db-javascript /opt/gaosg/Desktop/vue/meduo/frontend/jstest/trap/javascript
+[2020-07-29 12:29:49] Clearing disk cache since the version file /opt/gaosg/Desktop/vue/meduo/frontend/jstest/db-javascript/default/cache/version does not exist
+[2020-07-29 12:29:49] Tuple pool not found. Clearing relations with cached strings
+[2020-07-29 12:29:49] Trimming disk cache at /opt/gaosg/Desktop/vue/meduo/frontend/jstest/db-javascript/default/cache in mode brutal.
+[2020-07-29 12:29:49] Sequence stamp origin is -6699131118677414043
+[2020-07-29 12:29:49] Stopped the world to hard-clear memory at sequence stamp o+0
+[2020-07-29 12:29:49] Starting the world again
+[2020-07-29 12:29:49] Stopped the world to quickly trim disk at sequence stamp o+1
+[2020-07-29 12:29:49] Starting the world again
+[2020-07-29 12:29:49] Stopped the world to zealously trim disk at sequence stamp o+2
+[2020-07-29 12:29:49] Starting the world again
+[2020-07-29 12:29:49] Trimming completed (17ms): Purged everything.
+[2020-07-29 12:29:49] Scanning for files in /opt/gaosg/Desktop/vue/meduo/frontend/jstest/trap/javascript
+[2020-07-29 12:29:50] Importing es2016.js.trap.gz (1 of 328)
+[2020-07-29 12:29:50] Importing es2017.js.trap.gz (2 of 328)
+[2020-07-29 12:29:50] Importing es3.js.trap.gz (3 of 328)
+[2020-07-29 12:29:50] Importing es5.js.trap.gz (4 of 328)
+[2020-07-29 12:29:50] Importing es6.js.trap.gz (5 of 328)
+[2020-07-29 12:29:50] Importing es6_collections.js.trap.gz (6 of 328)
+[2020-07-29 12:29:51] Importing intl.js.trap.gz (7 of 328)
+[2020-07-29 12:29:51] Importing proxy.js.trap.gz (8 of 328)
+[2020-07-29 12:29:51] Importing bdd.js.trap.gz (9 of 328)
+[2020-07-29 12:29:51] Importing jquery-3.2.js.trap.gz (10 of 328)
+[2020-07-29 12:29:51] Importing should.js.trap.gz (11 of 328)
+[2020-07-29 12:29:51] Importing vows.js.trap.gz (12 of 328)
+[2020-07-29 12:29:51] Importing assert.js.trap.gz (13 of 328)
+[2020-07-29 12:29:51] Importing assert_legacy.js.trap.gz (14 of 328)
+[2020-07-29 12:29:51] Importing buffer.js.trap.gz (15 of 328)
+[2020-07-29 12:29:51] Importing child_process.js.trap.gz (16 of 328)
+[2020-07-29 12:29:51] Importing cluster.js.trap.gz (17 of 328)
+[2020-07-29 12:29:51] Importing console.js.trap.gz (18 of 328)
+[2020-07-29 12:29:51] Importing constants.js.trap.gz (19 of 328)
+[2020-07-29 12:29:51] Importing crypto.js.trap.gz (20 of 328)
+[2020-07-29 12:29:52] Importing dgram.js.trap.gz (21 of 328)
+[2020-07-29 12:29:52] Importing dns.js.trap.gz (22 of 328)
+[2020-07-29 12:29:52] Importing domain.js.trap.gz (23 of 328)
+[2020-07-29 12:29:52] Importing events.js.trap.gz (24 of 328)
+[2020-07-29 12:29:52] Importing fs.js.trap.gz (25 of 328)
+[2020-07-29 12:29:52] Importing globals.js.trap.gz (26 of 328)
+[2020-07-29 12:29:52] Importing http.js.trap.gz (27 of 328)
+[2020-07-29 12:29:52] Importing https.js.trap.gz (28 of 328)
+[2020-07-29 12:29:52] Importing module.js.trap.gz (29 of 328)
+[2020-07-29 12:29:52] Importing net.js.trap.gz (30 of 328)
+[2020-07-29 12:29:52] Importing os.js.trap.gz (31 of 328)
+[2020-07-29 12:29:52] Importing path.js.trap.gz (32 of 328)
+[2020-07-29 12:29:52] Importing process.js.trap.gz (33 of 328)
+[2020-07-29 12:29:52] Importing punycode.js.trap.gz (34 of 328)
+[2020-07-29 12:29:52] Importing querystring.js.trap.gz (35 of 328)
+[2020-07-29 12:29:52] Importing readline.js.trap.gz (36 of 328)
+[2020-07-29 12:29:52] Importing repl.js.trap.gz (37 of 328)
+[2020-07-29 12:29:52] Importing stream.js.trap.gz (38 of 328)
+[2020-07-29 12:29:52] Importing string_decoder.js.trap.gz (39 of 328)
+[2020-07-29 12:29:52] Importing sys.js.trap.gz (40 of 328)
+[2020-07-29 12:29:52] Importing timers.js.trap.gz (41 of 328)
+[2020-07-29 12:29:53] Importing tls.js.trap.gz (42 of 328)
+[2020-07-29 12:29:53] Importing tty.js.trap.gz (43 of 328)
+[2020-07-29 12:29:53] Importing url.js.trap.gz (44 of 328)
+[2020-07-29 12:29:53] Importing util.js.trap.gz (45 of 328)
+[2020-07-29 12:29:53] Importing v8.js.trap.gz (46 of 328)
+[2020-07-29 12:29:53] Importing vm.js.trap.gz (47 of 328)
+[2020-07-29 12:29:53] Importing zlib.js.trap.gz (48 of 328)
+[2020-07-29 12:29:53] Importing jsshell.js.trap.gz (49 of 328)
+[2020-07-29 12:29:53] Importing rhino.js.trap.gz (50 of 328)
+[2020-07-29 12:29:53] Importing spidermonkey.js.trap.gz (51 of 328)
+[2020-07-29 12:29:53] Importing v8.js.trap.gz (52 of 328)
+[2020-07-29 12:29:53] Importing chrome.js.trap.gz (53 of 328)
+[2020-07-29 12:29:53] Importing fetchapi.js.trap.gz (54 of 328)
+[2020-07-29 12:29:53] Importing fileapi.js.trap.gz (55 of 328)
+[2020-07-29 12:29:53] Importing flash.js.trap.gz (56 of 328)
+[2020-07-29 12:29:53] Importing gecko_css.js.trap.gz (57 of 328)
+[2020-07-29 12:29:53] Importing gecko_dom.js.trap.gz (58 of 328)
+[2020-07-29 12:29:53] Importing gecko_event.js.trap.gz (59 of 328)
+[2020-07-29 12:29:53] Importing gecko_ext.js.trap.gz (60 of 328)
+[2020-07-29 12:29:53] Importing gecko_xml.js.trap.gz (61 of 328)
+[2020-07-29 12:29:53] Importing html5.js.trap.gz (62 of 328)
+[2020-07-29 12:29:53] Importing ie_css.js.trap.gz (63 of 328)
+[2020-07-29 12:29:53] Importing ie_dom.js.trap.gz (64 of 328)
+[2020-07-29 12:29:53] Importing ie_event.js.trap.gz (65 of 328)
+[2020-07-29 12:29:54] Importing ie_vml.js.trap.gz (66 of 328)
+[2020-07-29 12:29:54] Importing intl.js.trap.gz (67 of 328)
+[2020-07-29 12:29:54] Importing iphone.js.trap.gz (68 of 328)
+[2020-07-29 12:29:54] Importing mediasource.js.trap.gz (69 of 328)
+[2020-07-29 12:29:54] Importing page_visibility.js.trap.gz (70 of 328)
+[2020-07-29 12:29:54] Importing streamsapi.js.trap.gz (71 of 328)
+[2020-07-29 12:29:54] Importing url.js.trap.gz (72 of 328)
+[2020-07-29 12:29:54] Importing w3c_anim_timing.js.trap.gz (73 of 328)
+[2020-07-29 12:29:54] Importing w3c_batterystatus.js.trap.gz (74 of 328)
+[2020-07-29 12:29:54] Importing w3c_css.js.trap.gz (75 of 328)
+[2020-07-29 12:29:54] Importing w3c_css3d.js.trap.gz (76 of 328)
+[2020-07-29 12:29:54] Importing w3c_device_sensor_event.js.trap.gz (77 of 328)
+[2020-07-29 12:29:54] Importing w3c_dom1.js.trap.gz (78 of 328)
+[2020-07-29 12:29:54] Importing w3c_dom2.js.trap.gz (79 of 328)
+[2020-07-29 12:29:54] Importing w3c_dom3.js.trap.gz (80 of 328)
+[2020-07-29 12:29:54] Importing w3c_dom4.js.trap.gz (81 of 328)
+[2020-07-29 12:29:54] Importing w3c_elementtraversal.js.trap.gz (82 of 328)
+[2020-07-29 12:29:54] Importing w3c_encoding.js.trap.gz (83 of 328)
+[2020-07-29 12:29:54] Importing w3c_event.js.trap.gz (84 of 328)
+[2020-07-29 12:29:54] Importing w3c_event3.js.trap.gz (85 of 328)
+[2020-07-29 12:29:54] Importing w3c_gamepad.js.trap.gz (86 of 328)
+[2020-07-29 12:29:54] Importing w3c_geolocation.js.trap.gz (87 of 328)
+[2020-07-29 12:29:54] Importing w3c_indexeddb.js.trap.gz (88 of 328)
+[2020-07-29 12:29:54] Importing w3c_midi.js.trap.gz (89 of 328)
+[2020-07-29 12:29:54] Importing w3c_navigation_timing.js.trap.gz (90 of 328)
+[2020-07-29 12:29:54] Importing w3c_permissions.js.trap.gz (91 of 328)
+[2020-07-29 12:29:54] Importing w3c_pointer_events.js.trap.gz (92 of 328)
+[2020-07-29 12:29:54] Importing w3c_range.js.trap.gz (93 of 328)
+[2020-07-29 12:29:54] Importing w3c_requestidlecallback.js.trap.gz (94 of 328)
+[2020-07-29 12:29:54] Importing w3c_rtc.js.trap.gz (95 of 328)
+[2020-07-29 12:29:54] Importing w3c_screen_orientation.js.trap.gz (96 of 328)
+[2020-07-29 12:29:54] Importing w3c_selectors.js.trap.gz (97 of 328)
+[2020-07-29 12:29:54] Importing w3c_serviceworker.js.trap.gz (98 of 328)
+[2020-07-29 12:29:54] Importing w3c_touch_event.js.trap.gz (99 of 328)
+[2020-07-29 12:29:54] Importing w3c_webcrypto.js.trap.gz (100 of 328)
+[2020-07-29 12:29:54] Importing w3c_xml.js.trap.gz (101 of 328)
+[2020-07-29 12:29:54] Importing webgl.js.trap.gz (102 of 328)
+[2020-07-29 12:29:55] Importing webkit_css.js.trap.gz (103 of 328)
+[2020-07-29 12:29:55] Importing webkit_dom.js.trap.gz (104 of 328)
+[2020-07-29 12:29:55] Importing webkit_event.js.trap.gz (105 of 328)
+[2020-07-29 12:29:55] Importing webkit_notifications.js.trap.gz (106 of 328)
+[2020-07-29 12:29:55] Importing webkit_usercontent.js.trap.gz (107 of 328)
+[2020-07-29 12:29:55] Importing webstorage.js.trap.gz (108 of 328)
+[2020-07-29 12:29:55] Importing whatwg_encoding.js.trap.gz (109 of 328)
+[2020-07-29 12:29:55] Importing window.js.trap.gz (110 of 328)
+[2020-07-29 12:29:55] Importing .eslintrc.js.trap.gz (111 of 328)
+[2020-07-29 12:29:55] Importing .travis.yml.trap.gz (112 of 328)
+[2020-07-29 12:29:55] Importing babel.config.js.trap.gz (113 of 328)
+[2020-07-29 12:29:55] Importing plugin.config.js.trap.gz (114 of 328)
+[2020-07-29 12:29:55] Importing jest.config.js.trap.gz (115 of 328)
+[2020-07-29 12:29:55] Importing codeql-database.yml.trap.gz (116 of 328)
+[2020-07-29 12:29:55] Importing tsconfig.json.trap.gz (117 of 328)
+[2020-07-29 12:29:55] Importing package.json.trap.gz (118 of 328)
+[2020-07-29 12:29:55] Importing postcss.config.js.trap.gz (119 of 328)
+[2020-07-29 12:29:55] Importing index.html.trap.gz (120 of 328)
+[2020-07-29 12:29:55] Importing loading.html.trap.gz (121 of 328)
+[2020-07-29 12:29:55] Importing html_code_segment.html.trap.gz (122 of 328)
+[2020-07-29 12:29:55] Importing App.vue.trap.gz (123 of 328)
+[2020-07-29 12:29:55] Importing feature-service.js.trap.gz (124 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (125 of 328)
+[2020-07-29 12:29:55] Importing login.js.trap.gz (126 of 328)
+[2020-07-29 12:29:55] Importing manage.js.trap.gz (127 of 328)
+[2020-07-29 12:29:55] Importing permission-service.js.trap.gz (128 of 328)
+[2020-07-29 12:29:55] Importing user.js.trap.gz (129 of 328)
+[2020-07-29 12:29:55] Importing ArticleListContent.vue.trap.gz (130 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (131 of 328)
+[2020-07-29 12:29:55] Importing Item.vue.trap.gz (132 of 328)
+[2020-07-29 12:29:55] Importing List.vue.trap.gz (133 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (134 of 328)
+[2020-07-29 12:29:55] Importing Bar.vue.trap.gz (135 of 328)
+[2020-07-29 12:29:55] Importing ChartCard.vue.trap.gz (136 of 328)
+[2020-07-29 12:29:55] Importing Liquid.vue.trap.gz (137 of 328)
+[2020-07-29 12:29:55] Importing MiniArea.vue.trap.gz (138 of 328)
+[2020-07-29 12:29:55] Importing MiniBar.vue.trap.gz (139 of 328)
+[2020-07-29 12:29:55] Importing MiniProgress.vue.trap.gz (140 of 328)
+[2020-07-29 12:29:55] Importing MiniSmoothArea.vue.trap.gz (141 of 328)
+[2020-07-29 12:29:55] Importing Radar.vue.trap.gz (142 of 328)
+[2020-07-29 12:29:55] Importing RankList.vue.trap.gz (143 of 328)
+[2020-07-29 12:29:55] Importing TagCloud.vue.trap.gz (144 of 328)
+[2020-07-29 12:29:55] Importing TransferBar.vue.trap.gz (145 of 328)
+[2020-07-29 12:29:55] Importing Trend.vue.trap.gz (146 of 328)
+[2020-07-29 12:29:55] Importing CountDown.vue.trap.gz (147 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (148 of 328)
+[2020-07-29 12:29:55] Importing DescriptionList.vue.trap.gz (149 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (150 of 328)
+[2020-07-29 12:29:55] Importing QuillEditor.vue.trap.gz (151 of 328)
+[2020-07-29 12:29:55] Importing WangEditor.vue.trap.gz (152 of 328)
+[2020-07-29 12:29:55] Importing Ellipsis.vue.trap.gz (153 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (154 of 328)
+[2020-07-29 12:29:55] Importing ExceptionPage.vue.trap.gz (155 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (156 of 328)
+[2020-07-29 12:29:55] Importing type.js.trap.gz (157 of 328)
+[2020-07-29 12:29:55] Importing FooterToolBar.vue.trap.gz (158 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (159 of 328)
+[2020-07-29 12:29:55] Importing GlobalFooter.vue.trap.gz (160 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (161 of 328)
+[2020-07-29 12:29:55] Importing GlobalHeader.vue.trap.gz (162 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (163 of 328)
+[2020-07-29 12:29:55] Importing IconSelector.vue.trap.gz (164 of 328)
+[2020-07-29 12:29:55] Importing icons.js.trap.gz (165 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (166 of 328)
+[2020-07-29 12:29:55] Importing SideMenu.vue.trap.gz (167 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (168 of 328)
+[2020-07-29 12:29:55] Importing menu.js.trap.gz (169 of 328)
+[2020-07-29 12:29:55] Importing menu.render.js.trap.gz (170 of 328)
+[2020-07-29 12:29:55] Importing MultiTab.vue.trap.gz (171 of 328)
+[2020-07-29 12:29:55] Importing events.js.trap.gz (172 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (173 of 328)
+[2020-07-29 12:29:55] Importing NoticeIcon.vue.trap.gz (174 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (175 of 328)
+[2020-07-29 12:29:55] Importing NumberInfo.vue.trap.gz (176 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (177 of 328)
+[2020-07-29 12:29:55] Importing PageHeader.vue.trap.gz (178 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (179 of 328)
+[2020-07-29 12:29:55] Importing index.jsx.trap.gz (180 of 328)
+[2020-07-29 12:29:55] Importing Result.vue.trap.gz (181 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (182 of 328)
+[2020-07-29 12:29:55] Importing GlobalSearch.jsx.trap.gz (183 of 328)
+[2020-07-29 12:29:55] Importing SettingDrawer.vue.trap.gz (184 of 328)
+[2020-07-29 12:29:55] Importing SettingItem.vue.trap.gz (185 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (186 of 328)
+[2020-07-29 12:29:55] Importing settingConfig.js.trap.gz (187 of 328)
+[2020-07-29 12:29:55] Importing themeColor.js.trap.gz (188 of 328)
+[2020-07-29 12:29:55] Importing StandardFormRow.vue.trap.gz (189 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (190 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (191 of 328)
+[2020-07-29 12:29:55] Importing TagSelectOption.jsx.trap.gz (192 of 328)
+[2020-07-29 12:29:55] Importing index.jsx.trap.gz (193 of 328)
+[2020-07-29 12:29:55] Importing index.jsx.trap.gz (194 of 328)
+[2020-07-29 12:29:55] Importing Tree.jsx.trap.gz (195 of 328)
+[2020-07-29 12:29:55] Importing Trend.vue.trap.gz (196 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (197 of 328)
+[2020-07-29 12:29:55] Importing util.js.trap.gz (198 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (199 of 328)
+[2020-07-29 12:29:55] Importing Breadcrumb.vue.trap.gz (200 of 328)
+[2020-07-29 12:29:55] Importing DetailList.vue.trap.gz (201 of 328)
+[2020-07-29 12:29:55] Importing HeadInfo.vue.trap.gz (202 of 328)
+[2020-07-29 12:29:55] Importing LangSelect.vue.trap.gz (203 of 328)
+[2020-07-29 12:29:55] Importing Logo.vue.trap.gz (204 of 328)
+[2020-07-29 12:29:55] Importing TwoStepCaptcha.vue.trap.gz (205 of 328)
+[2020-07-29 12:29:55] Importing UserMenu.vue.trap.gz (206 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (207 of 328)
+[2020-07-29 12:29:55] Importing defaultSettings.js.trap.gz (208 of 328)
+[2020-07-29 12:29:55] Importing router.config.js.trap.gz (209 of 328)
+[2020-07-29 12:29:55] Importing bootstrap.js.trap.gz (210 of 328)
+[2020-07-29 12:29:55] Importing action.js.trap.gz (211 of 328)
+[2020-07-29 12:29:55] Importing icons.js.trap.gz (212 of 328)
+[2020-07-29 12:29:55] Importing components_use.js.trap.gz (213 of 328)
+[2020-07-29 12:29:55] Importing lazy_use.js.trap.gz (214 of 328)
+[2020-07-29 12:29:55] Importing use.js.trap.gz (215 of 328)
+[2020-07-29 12:29:55] Importing BasicLayout.vue.trap.gz (216 of 328)
+[2020-07-29 12:29:55] Importing BlankLayout.vue.trap.gz (217 of 328)
+[2020-07-29 12:29:55] Importing PageView.vue.trap.gz (218 of 328)
+[2020-07-29 12:29:55] Importing RouteView.vue.trap.gz (219 of 328)
+[2020-07-29 12:29:55] Importing UserLayout.vue.trap.gz (220 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (221 of 328)
+[2020-07-29 12:29:55] Importing main.js.trap.gz (222 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (223 of 328)
+[2020-07-29 12:29:55] Importing mockHelper.js.trap.gz (224 of 328)
+[2020-07-29 12:29:55] Importing article.js.trap.gz (225 of 328)
+[2020-07-29 12:29:55] Importing auth.js.trap.gz (226 of 328)
+[2020-07-29 12:29:55] Importing manage.js.trap.gz (227 of 328)
+[2020-07-29 12:29:55] Importing other.js.trap.gz (228 of 328)
+[2020-07-29 12:29:55] Importing tagCloud.js.trap.gz (229 of 328)
+[2020-07-29 12:29:55] Importing user.js.trap.gz (230 of 328)
+[2020-07-29 12:29:55] Importing permission.js.trap.gz (231 of 328)
+[2020-07-29 12:29:55] Importing generator-routers.js.trap.gz (232 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (233 of 328)
+[2020-07-29 12:29:55] Importing getters.js.trap.gz (234 of 328)
+[2020-07-29 12:29:55] Importing index.js.trap.gz (235 of 328)
+[2020-07-29 12:29:55] Importing app.js.trap.gz (236 of 328)
+[2020-07-29 12:29:55] Importing async-router.js.trap.gz (237 of 328)
+[2020-07-29 12:29:55] Importing permission.js.trap.gz (238 of 328)
+[2020-07-29 12:29:55] Importing user.js.trap.gz (239 of 328)
+[2020-07-29 12:29:55] Importing mutation-types.js.trap.gz (240 of 328)
+[2020-07-29 12:29:55] Importing axios.js.trap.gz (241 of 328)
+[2020-07-29 12:29:56] Importing bcryptwrapper.js.trap.gz (242 of 328)
+[2020-07-29 12:29:56] Importing device.js.trap.gz (243 of 328)
+[2020-07-29 12:29:56] Importing domUtil.js.trap.gz (244 of 328)
+[2020-07-29 12:29:56] Importing filter.js.trap.gz (245 of 328)
+[2020-07-29 12:29:56] Importing permission.js.trap.gz (246 of 328)
+[2020-07-29 12:29:56] Importing mixin.js.trap.gz (247 of 328)
+[2020-07-29 12:29:56] Importing permissions.js.trap.gz (248 of 328)
+[2020-07-29 12:29:56] Importing request.js.trap.gz (249 of 328)
+[2020-07-29 12:29:56] Importing util.js.trap.gz (250 of 328)
+[2020-07-29 12:29:56] Importing 404.vue.trap.gz (251 of 328)
+[2020-07-29 12:29:56] Importing Home.vue.trap.gz (252 of 328)
+[2020-07-29 12:29:56] Importing Index.vue.trap.gz (253 of 328)
+[2020-07-29 12:29:56] Importing App.vue.trap.gz (254 of 328)
+[2020-07-29 12:29:56] Importing Article.vue.trap.gz (255 of 328)
+[2020-07-29 12:29:56] Importing Project.vue.trap.gz (256 of 328)
+[2020-07-29 12:29:56] Importing index.js.trap.gz (257 of 328)
+[2020-07-29 12:29:56] Importing AvatarModal.vue.trap.gz (258 of 328)
+[2020-07-29 12:29:56] Importing BaseSetting.vue.trap.gz (259 of 328)
+[2020-07-29 12:29:56] Importing Binding.vue.trap.gz (260 of 328)
+[2020-07-29 12:29:56] Importing Custom.vue.trap.gz (261 of 328)
+[2020-07-29 12:29:56] Importing Index.vue.trap.gz (262 of 328)
+[2020-07-29 12:29:56] Importing Notification.vue.trap.gz (263 of 328)
+[2020-07-29 12:29:56] Importing Security.vue.trap.gz (264 of 328)
+[2020-07-29 12:29:56] Importing Analysis.vue.trap.gz (265 of 328)
+[2020-07-29 12:29:56] Importing Monitor.vue.trap.gz (266 of 328)
+[2020-07-29 12:29:56] Importing TestWork.vue.trap.gz (267 of 328)
+[2020-07-29 12:29:56] Importing Workplace.vue.trap.gz (268 of 328)
+[2020-07-29 12:29:56] Importing 403.vue.trap.gz (269 of 328)
+[2020-07-29 12:29:56] Importing 404.vue.trap.gz (270 of 328)
+[2020-07-29 12:29:56] Importing 500.vue.trap.gz (271 of 328)
+[2020-07-29 12:29:56] Importing BasicForm.vue.trap.gz (272 of 328)
+[2020-07-29 12:29:56] Importing AdvancedForm.vue.trap.gz (273 of 328)
+[2020-07-29 12:29:56] Importing RepositoryForm.vue.trap.gz (274 of 328)
+[2020-07-29 12:29:56] Importing TaskForm.vue.trap.gz (275 of 328)
+[2020-07-29 12:29:56] Importing Step1.vue.trap.gz (276 of 328)
+[2020-07-29 12:29:56] Importing Step2.vue.trap.gz (277 of 328)
+[2020-07-29 12:29:56] Importing Step3.vue.trap.gz (278 of 328)
+[2020-07-29 12:29:56] Importing StepForm.vue.trap.gz (279 of 328)
+[2020-07-29 12:29:56] Importing CardList.vue.trap.gz (280 of 328)
+[2020-07-29 12:29:56] Importing QueryList.vue.trap.gz (281 of 328)
+[2020-07-29 12:29:56] Importing StandardList.vue.trap.gz (282 of 328)
+[2020-07-29 12:29:56] Importing TableList.vue.trap.gz (283 of 328)
+[2020-07-29 12:29:56] Importing CreateForm.vue.trap.gz (284 of 328)
+[2020-07-29 12:29:56] Importing StepByStepModal.vue.trap.gz (285 of 328)
+[2020-07-29 12:29:56] Importing TaskForm.vue.trap.gz (286 of 328)
+[2020-07-29 12:29:56] Importing Applications.vue.trap.gz (287 of 328)
+[2020-07-29 12:29:56] Importing Article.vue.trap.gz (288 of 328)
+[2020-07-29 12:29:56] Importing Projects.vue.trap.gz (289 of 328)
+[2020-07-29 12:29:56] Importing SearchLayout.vue.trap.gz (290 of 328)
+[2020-07-29 12:29:56] Importing CardInfo.vue.trap.gz (291 of 328)
+[2020-07-29 12:29:56] Importing IconText.vue.trap.gz (292 of 328)
+[2020-07-29 12:29:56] Importing Edit.vue.trap.gz (293 of 328)
+[2020-07-29 12:29:56] Importing List.vue.trap.gz (294 of 328)
+[2020-07-29 12:29:56] Importing IconSelectorView.vue.trap.gz (295 of 328)
+[2020-07-29 12:29:56] Importing PermissionList.vue.trap.gz (296 of 328)
+[2020-07-29 12:29:56] Importing RoleList.vue.trap.gz (297 of 328)
+[2020-07-29 12:29:56] Importing SwaggerAdmin.vue.trap.gz (298 of 328)
+[2020-07-29 12:29:56] Importing TableInnerEditList.vue.trap.gz (299 of 328)
+[2020-07-29 12:29:56] Importing TreeList.vue.trap.gz (300 of 328)
+[2020-07-29 12:29:56] Importing UserList.vue.trap.gz (301 of 328)
+[2020-07-29 12:29:56] Importing OrgModal.vue.trap.gz (302 of 328)
+[2020-07-29 12:29:56] Importing RoleModal.vue.trap.gz (303 of 328)
+[2020-07-29 12:29:56] Importing Advanced.vue.trap.gz (304 of 328)
+[2020-07-29 12:29:56] Importing Index.vue.trap.gz (305 of 328)
+[2020-07-29 12:29:56] Importing Error.vue.trap.gz (306 of 328)
+[2020-07-29 12:29:56] Importing Success.vue.trap.gz (307 of 328)
+[2020-07-29 12:29:56] Importing RoleList.vue.trap.gz (308 of 328)
+[2020-07-29 12:29:56] Importing BootAdmin.vue.trap.gz (309 of 328)
+[2020-07-29 12:29:56] Importing DruidAdmin.vue.trap.gz (310 of 328)
+[2020-07-29 12:29:56] Importing HystrixAdmin.vue.trap.gz (311 of 328)
+[2020-07-29 12:29:56] Importing RegistryAdmin.vue.trap.gz (312 of 328)
+[2020-07-29 12:29:56] Importing ZipkinAdmin.vue.trap.gz (313 of 328)
+[2020-07-29 12:29:56] Importing CreateFeatureForm.vue.trap.gz (314 of 328)
+[2020-07-29 12:29:56] Importing CreateFeatureGroupForm.vue.trap.gz (315 of 328)
+[2020-07-29 12:29:56] Importing CreatePermGroupForm.vue.trap.gz (316 of 328)
+[2020-07-29 12:29:56] Importing FeatureGrant.vue.trap.gz (317 of 328)
+[2020-07-29 12:29:56] Importing FeatureGroup.vue.trap.gz (318 of 328)
+[2020-07-29 12:29:56] Importing FeatureList.vue.trap.gz (319 of 328)
+[2020-07-29 12:29:56] Importing UserList.vue.trap.gz (320 of 328)
+[2020-07-29 12:29:56] Importing Login.vue.trap.gz (321 of 328)
+[2020-07-29 12:29:56] Importing NewUser.vue.trap.gz (322 of 328)
+[2020-07-29 12:29:56] Importing Register.vue.trap.gz (323 of 328)
+[2020-07-29 12:29:56] Importing RegisterResult.vue.trap.gz (324 of 328)
+[2020-07-29 12:29:56] Importing .eslintrc.js.trap.gz (325 of 328)
+[2020-07-29 12:29:56] Importing vue.config.js.trap.gz (326 of 328)
+[2020-07-29 12:29:56] Importing webstorm.config.js.trap.gz (327 of 328)
+[2020-07-29 12:29:56] Importing sourceLocationPrefix.trap.gz (328 of 328)
+[2020-07-29 12:29:56] Merging 1 fragments for files.
+[2020-07-29 12:29:56] Merging 1 fragments for folders.
+[2020-07-29 12:29:56] Merging 1 fragments for containerparent.
+[2020-07-29 12:29:56] Merging 3 fragments for locations_default.
+[2020-07-29 12:29:57] Merging 4 fragments for hasLocation.
+[2020-07-29 12:29:57] Merging 1 fragments for extraction_data.
+[2020-07-29 12:29:57] Merging 1 fragments for scopes.
+[2020-07-29 12:29:57] Merging 1 fragments for comments.
+[2020-07-29 12:29:57] Merging 1 fragments for indentation.
+[2020-07-29 12:29:57] Merging 1 fragments for numlines.
+[2020-07-29 12:29:57] Merging 2 fragments for tokeninfo.
+[2020-07-29 12:29:57] Merging 1 fragments for next_token.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc_tags.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc_tag_descriptions.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc_tag_names.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc_type_exprs.
+[2020-07-29 12:29:57] Merging 1 fragments for toplevels.
+[2020-07-29 12:29:57] Merging 1 fragments for stmts.
+[2020-07-29 12:29:57] Merging 1 fragments for stmtContainers.
+[2020-07-29 12:29:57] Merging 1 fragments for exprs.
+[2020-07-29 12:29:57] Merging 1 fragments for enclosingStmt.
+[2020-07-29 12:29:57] Merging 1 fragments for exprContainers.
+[2020-07-29 12:29:57] Merging 1 fragments for literals.
+[2020-07-29 12:29:57] Merging 1 fragments for variables.
+[2020-07-29 12:29:57] Merging 1 fragments for bind.
+[2020-07-29 12:29:57] Merging 1 fragments for scopenodes.
+[2020-07-29 12:29:57] Merging 1 fragments for scopenesting.
+[2020-07-29 12:29:57] Merging 1 fragments for decl.
+[2020-07-29 12:29:57] Merging 1 fragments for isArgumentsObject.
+[2020-07-29 12:29:57] Merging 1 fragments for entry_cfg_node.
+[2020-07-29 12:29:57] Merging 1 fragments for exit_cfg_node.
+[2020-07-29 12:29:57] Merging 2 fragments for successor.
+[2020-07-29 12:29:57] Merging 1 fragments for isExterns.
+[2020-07-29 12:29:57] Merging 1 fragments for filetype.
+[2020-07-29 12:29:57] Merging 1 fragments for extraction_time.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc_prefix_qualifier.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc_errors.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc_record_field_name.
+[2020-07-29 12:29:57] Merging 1 fragments for jsdoc_has_new_parameter.
+[2020-07-29 12:29:57] Merging 1 fragments for properties.
+[2020-07-29 12:29:57] Merging 1 fragments for guard_node.
+[2020-07-29 12:29:57] Merging 1 fragments for isModule.
+[2020-07-29 12:29:57] Merging 1 fragments for isNodejs.
+[2020-07-29 12:29:57] Merging 1 fragments for arraySize.
+[2020-07-29 12:29:57] Merging 1 fragments for yaml_scalars.
+[2020-07-29 12:29:57] Merging 1 fragments for yaml.
+[2020-07-29 12:29:57] Merging 1 fragments for yaml_locations.
+[2020-07-29 12:29:57] Merging 1 fragments for isMethod.
+[2020-07-29 12:29:57] Merging 1 fragments for symbols.
+[2020-07-29 12:29:57] Merging 1 fragments for symbol_parent.
+[2020-07-29 12:29:57] Merging 1 fragments for symbol_module.
+[2020-07-29 12:29:57] Merging 1 fragments for symbol_global.
+[2020-07-29 12:29:57] Merging 1 fragments for base_type_names.
+[2020-07-29 12:29:57] Merging 1 fragments for json.
+[2020-07-29 12:29:57] Merging 1 fragments for json_locations.
+[2020-07-29 12:29:57] Merging 1 fragments for json_literals.
+[2020-07-29 12:29:57] Merging 1 fragments for json_properties.
+[2020-07-29 12:29:57] Merging 1 fragments for xmlElements.
+[2020-07-29 12:29:57] Merging 1 fragments for xmllocations.
+[2020-07-29 12:29:57] Merging 1 fragments for xmlAttrs.
+[2020-07-29 12:29:57] Merging 1 fragments for xmlComments.
+[2020-07-29 12:29:57] Merging 1 fragments for isES2015Module.
+[2020-07-29 12:29:57] Merging 1 fragments for local_type_names.
+[2020-07-29 12:29:57] Merging 1 fragments for local_namespace_names.
+[2020-07-29 12:29:57] Merging 1 fragments for typedecl.
+[2020-07-29 12:29:57] Merging 1 fragments for namespacedecl.
+[2020-07-29 12:29:57] Merging 1 fragments for typebind.
+[2020-07-29 12:29:57] Merging 1 fragments for namespacebind.
+[2020-07-29 12:29:57] Merging 1 fragments for isComputed.
+[2020-07-29 12:29:57] Merging 1 fragments for hasRestParameter.
+[2020-07-29 12:29:57] Merging 1 fragments for regexpterm.
+[2020-07-29 12:29:57] Merging 1 fragments for regexpConstValue.
+[2020-07-29 12:29:57] Merging 1 fragments for jsParseErrors.
+[2020-07-29 12:29:57] Merging 1 fragments for isCapture.
+[2020-07-29 12:29:57] Merging 1 fragments for isGreedy.
+[2020-07-29 12:29:57] Merging 1 fragments for charClassEscape.
+[2020-07-29 12:29:57] Merging 1 fragments for rangeQuantifierLowerBound.
+[2020-07-29 12:29:57] Merging 1 fragments for jumpTargets.
+[2020-07-29 12:29:57] Merging 1 fragments for isInverted.
+[2020-07-29 12:29:57] Merging 1 fragments for rangeQuantifierUpperBound.
+[2020-07-29 12:29:57] Merging 1 fragments for sourceLocationPrefix.
+[2020-07-29 12:29:57] Saving string and id pools to disk.
+[2020-07-29 12:29:57] Finished importing trap files.
+[2020-07-29 12:29:57] Stopped the world to close the cache at sequence stamp o+3
+[2020-07-29 12:29:57] The disk cache is freshly trimmed; leave it be.
+[2020-07-29 12:29:57] Starting the world again
+[2020-07-29 12:29:57] Plumbing command codeql dataset import completed.
+[2020-07-29 12:29:57] [PROGRESS] database finalize> TRAP import complete (8.4s).
+[2020-07-29 12:29:57] Running plumbing command: codeql database cleanup --mode=normal -- /opt/gaosg/Desktop/vue/meduo/frontend/jstest
+[2020-07-29 12:29:57] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2020-07-29 12:29:58] [PROGRESS] database cleanup> TRAP files cleaned up (15ms).
+[2020-07-29 12:29:58] Running plumbing command: codeql dataset cleanup --mode=normal -- /opt/gaosg/Desktop/vue/meduo/frontend/jstest/db-javascript
+[2020-07-29 12:29:58] [PROGRESS] dataset cleanup> Cleaning up dataset in /opt/gaosg/Desktop/vue/meduo/frontend/jstest/db-javascript.
+[2020-07-29 12:29:58] Trimming disk cache at /opt/gaosg/Desktop/vue/meduo/frontend/jstest/db-javascript/default/cache in mode normal.
+[2020-07-29 12:29:58] Sequence stamp origin is -6699131083035546333
+[2020-07-29 12:29:58] Stopped the world to zealously trim disk at sequence stamp o+0
+[2020-07-29 12:29:58] Starting the world again
+[2020-07-29 12:29:58] Trimming completed (1ms): Trimmed disposable data from cache.
+[2020-07-29 12:29:58] Stopped the world to close the cache at sequence stamp o+1
+[2020-07-29 12:29:58] The disk cache is freshly trimmed; leave it be.
+[2020-07-29 12:29:58] Starting the world again
+[2020-07-29 12:29:58] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2020-07-29 12:29:58] Plumbing command codeql dataset cleanup completed.
+[2020-07-29 12:29:58] Plumbing command codeql database cleanup completed with status 0.
+[2020-07-29 12:29:58] Plumbing command codeql database finalize completed with status 0.
+[2020-07-29 12:29:58] [PROGRESS] database create> Successfully created database at /opt/gaosg/Desktop/vue/meduo/frontend/jstest.
+[2020-07-29 12:29:58] Terminating normally.
