@@ -8,8 +8,6 @@
 Overview
 ----
 
-<h1 align="center">Meduo安全级应用快速开发框架</h1>
-
 ![permission main](https://github.com/quick-meduo/meduo/blob/master/resources/images/main.png)
 
 ![dashboard + multi-tabs](https://github.com/quick-meduo/meduo/blob/master/resources/images/login.png)
