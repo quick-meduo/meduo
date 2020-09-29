@@ -1,0 +1,9 @@
+org.quick.meduo.tools.extra.tokenizer.engine.ansj.AnsjEngine
+org.quick.meduo.tools.extra.tokenizer.engine.hanlp.HanLPEngine
+org.quick.meduo.tools.extra.tokenizer.engine.ikanalyzer.IKAnalyzerEngine
+org.quick.meduo.tools.extra.tokenizer.engine.jcseg.JcsegEngine
+org.quick.meduo.tools.extra.tokenizer.engine.jieba.JiebaEngine
+org.quick.meduo.tools.extra.tokenizer.engine.mmseg.MmsegEngine
+org.quick.meduo.tools.extra.tokenizer.engine.word.WordEngine
+org.quick.meduo.tools.extra.tokenizer.engine.analysis.SmartcnEngine
+org.quick.meduo.tools.extra.tokenizer.engine.mynlp.MynlpEngine

@@ -1,0 +1,21 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: meduo-monitor
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: ${spring.application.name}	# register to consul
+
+# Open health check api
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<packaging>pom</packaging>
+
+	<groupId>org.quick.meduo</groupId>
+	<artifactId>meduo-tools</artifactId>
+	<version>5.3.9</version>
+	<name>meduo-tools</name>
+
+	<modules>
+		<module>../meduo-tools-all</module>
+		<module>../meduo-tools-bom</module>
+		<module>../meduo-tools-aop</module>
+		<module>../meduo-tools-bloomFilter</module>
+		<module>../meduo-tools-cache</module>
+		<module>../meduo-tools-core</module>
+		<module>../meduo-tools-cron</module>
+		<module>../meduo-tools-crypto</module>
+		<module>../meduo-tools-db</module>
+		<module>../meduo-tools-dfa</module>
+		<module>../meduo-tools-extra</module>
+		<module>../meduo-tools-http</module>
+		<module>../meduo-tools-log</module>
+		<module>../meduo-tools-script</module>
+		<module>../meduo-tools-setting</module>
+		<module>../meduo-tools-system</module>
+		<module>../meduo-tools-json</module>
+		<module>../meduo-tools-poi</module>
+		<module>../meduo-tools-captcha</module>
+		<module>../meduo-tools-socket</module>
+		<module>../meduo-tools-parent</module>
+	</modules>
+</project>

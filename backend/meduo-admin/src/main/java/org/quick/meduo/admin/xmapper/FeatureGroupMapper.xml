@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.quick.meduo.admin.mapper.FeatureGroupMapper">
+  <resultMap id="BaseResultMap" type="org.quick.meduo.admin.model.FeatureGroupModel">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="service_id" jdbcType="VARCHAR" property="serviceId"/>
+    <collection property="features" ofType="org.quick.meduo.admin.model.FeatureModel"
+                column="id"
+                select="org.quick.meduo.admin.mapper.FeatureMapper.selectFeatures"
+    >
+        <result column="id" property="id" />
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="code" property="code"/>
+        <result column="gid" property="gid"/>
+    </collection>
+  </resultMap>
+  <select id="selectFeatureGroup" resultMap="BaseResultMap" resultType="org.quick.meduo.admin.model.FeatureGroupModel">
+     select id,name,service_id,description   from sys_feature_group where service_id = #{id}
+  </select>
+  <select id="selectFeatureGroupWrapper" resultMap="BaseResultMap">
+    select id,name,service_id,description from sys_feature_group
+    <where>
+        service_id = #{param2.serviceId}
+        <if test="param2 != null and param2.groupName!=null and param2.groupName != ''">
+            and name like CONCAT('%', #{param2.groupName}, '%')
+        </if>
+        <if test="param2 != null and param2.groupDesc!=null and param2.groupDesc != ''">
+            and description like CONCAT('%', #{param2.groupDesc}, '%')
+        </if>
+        <if test="param2 != null">
+            <if test="(param2.featureName != null and param2.featureName != '') or
+                      (param2.featureDesc!=null and param2.featureDesc!='') or
+                      (param2.securityCode!=null and param2.securityCode != '')
+                      ">
+                and id in (select gid from sys_feature
+                  <where>
+                      <if test="param2.featureName != null and param2.featureName != ''">
+                         and  name like CONCAT('%', #{param2.featureName}, '%')
+                      </if>
+                      <if test="param2.featureDesc!=null and param2.featureDesc != ''">
+                          and  description like CONCAT('%', #{param2.featureDesc}, '%')
+                      </if>
+                      <if test="param2.securityCode!=null and param2.securityCode != ''">
+                          and  code like CONCAT('%', #{param2.securityCode}, '%')
+                      </if>
+                  </where>
+                )
+            </if>
+        </if>
+    </where>
+  </select>
+</mapper>

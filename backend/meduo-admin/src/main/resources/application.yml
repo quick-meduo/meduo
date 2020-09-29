@@ -1,0 +1,93 @@
+jasypt:
+  encryptor:
+    password: dev-env-secret
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+server:
+  port: 8001
+
+knife4j:
+  markdowns: classpath:markdown/*
+  basic:
+    enable: false
+    username: zhangsan
+    password: 123456
+
+spring:
+  application:
+    name: meduo-admin
+  security:
+    enable: false
+  jwt:
+    expiration: 10000000000000 # unit: s
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8000"
+  datasource:
+    name: druidDataSource
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/meduo_schema?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8
+      username: root
+      password: ENC(v1rQYdH45ENTncX0NH8VLbCTDrUaRKuO)
+      manname: admin
+      manword: admin
+      whitelist: 127.0.0.1,192.168.3.195
+      blacklist: 192.168.3.110
+      filters: stat,wall,config
+      max-active: 100
+      initial-size: 1
+      max-wait: 60000
+      min-idle: 1
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: select 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-open-prepared-statements: 50
+      max-pool-prepared-statement-per-connection-size: 20
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: ${spring.application.name}	# 注册到consul的服务名称
+    stream:
+      default-binder: nats
+      nats:
+        server: nats://localhost:4222
+        utf8-support: true
+      bindings:
+        input:
+          destination: dataIn
+          binder: nats
+        timedchannel:
+          destination: dataOut
+          binder: nats
+#Mybatis Plus 配置
+mybatis-plus:
+  type-enums-package: org.quick.meduo.common.constants
+  global-config:
+    db-config:
+      id-type: uuid
+      logic-delete-field: delflag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:org/quick/meduo/**/xmapper/*.xml
+
+# 开放健康检查接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

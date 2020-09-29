@@ -1,0 +1,6 @@
+org.quick.meduo.tools.extra.template.engine.beetl.BeetlEngine
+org.quick.meduo.tools.extra.template.engine.freemarker.FreemarkerEngine
+org.quick.meduo.tools.extra.template.engine.velocity.VelocityEngine
+org.quick.meduo.tools.extra.template.engine.rythm.RythmEngine
+org.quick.meduo.tools.extra.template.engine.enjoy.EnjoyEngine
+org.quick.meduo.tools.extra.template.engine.thymeleaf.ThymeleafEngine

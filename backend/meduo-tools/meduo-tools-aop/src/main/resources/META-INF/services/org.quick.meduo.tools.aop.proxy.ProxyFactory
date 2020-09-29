@@ -1,0 +1,3 @@
+org.quick.meduo.tools.aop.proxy.CglibProxyFactory
+org.quick.meduo.tools.aop.proxy.SpringCglibProxyFactory
+org.quick.meduo.tools.aop.proxy.JdkProxyFactory

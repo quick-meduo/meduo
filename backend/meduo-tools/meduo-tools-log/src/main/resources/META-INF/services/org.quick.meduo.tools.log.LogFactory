@@ -1,0 +1,6 @@
+org.quick.meduo.tools.log.dialect.slf4j.Slf4jLogFactory
+org.quick.meduo.tools.log.dialect.log4j2.Log4j2LogFactory
+org.quick.meduo.tools.log.dialect.log4j.Log4jLogFactory
+org.quick.meduo.tools.log.dialect.commons.ApacheCommonsLogFactory
+org.quick.meduo.tools.log.dialect.tinylog.TinyLogFactory
+org.quick.meduo.tools.log.dialect.jboss.JbossLogFactory

@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.quick.meduo.datasource.config.MeduoDataConfig

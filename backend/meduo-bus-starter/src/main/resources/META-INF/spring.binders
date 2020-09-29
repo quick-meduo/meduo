@@ -1,0 +1,2 @@
+nats:\
+org.quick.meduo.stream.binder.NatsChannelBinderConfiguration

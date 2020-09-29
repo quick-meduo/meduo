@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>org.quick.meduo</groupId>
+		<artifactId>meduo-tools-parent</artifactId>
+		<version>5.3.9</version>
+		<relativePath>../meduo-tools-parent/pom.xml</relativePath>
+	</parent>
+
+	<artifactId>meduo-tools-dfa</artifactId>
+	<name>${project.artifactId}</name>
+	<description>基于DFA的关键词查找</description>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.quick.meduo</groupId>
+			<artifactId>meduo-tools-core</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.quick.meduo</groupId>
+			<artifactId>meduo-tools-json</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: meduo-consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: ${spring.application.name}	# 注册到consul的服务名称
+        instance-id: ${spring.application.name}:${random.value}
+    config:
+      discovery:
+        enabled: true  # 开启服务发现
+        serviceId: meduo-config # 配置中心服务名称
+      name: consumer  # 对应{application}部分
+      profile: dev  # 对应{profile}部分
+      label: master  # 对应git的分支，如果配置中心使用的是本地存储，则该参数无用
+    stream:
+      default-binder: nats
+      nats:
+        server:
+          server: nats://localhost:4222
+          utf8-support: true
+      bindings:
+        input:
+          destination: dataIn
+          binder: nats
+        output:
+          destination: dataOut
+          binder: nats
