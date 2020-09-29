@@ -5,7 +5,7 @@ A quick java web application framework based on Spring Cloud
 
 <h1 align="center">Meduo Application Framework</h1>
 
-![dashboard + multi-tabs](https://static-2.loacg.com/open/static/github/20190224163345.jpg)
+![dashboard + multi-tabs](https://github.com/quick-meduo/meduo/blob/master/resources/images/login.png)
 
 ![dashboard + setting](https://static-2.loacg.com/open/static/github/20181126112124.png)
 
