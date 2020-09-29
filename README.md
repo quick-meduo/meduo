@@ -72,7 +72,7 @@ yarn run lint
 
 - I18n: [locales (@musnow)](./frontend/src/locales/index.js)
 
-- Production env `mock` is disabled. use `/frontend/src/mock/index.js`
+- Production env `mock` is disabled. use `./frontend/src/mock/index.js`
 
 - Plz use `release` version
 
