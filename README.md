@@ -3,27 +3,7 @@ English | [简体中文](./README.zh-CN.md)
 
 A quick java web application framework based on Spring Cloud
 
-<h1 align="center">Ant Design Pro Vue</h1>
-<div align="center">
-An out-of-box UI solution for enterprise applications as a Vue boilerplate. based on  <a href="https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/" target="_blank">Ant Design of Vue</a>
-</div>
-
-<div align="center">
-
-[![Backers on Open Collective](https://opencollective.com/ant-design-pro-vue/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/ant-design-pro-vue/sponsors/badge.svg)](#sponsors) [![License](https://img.shields.io/npm/l/package.json.svg?style=flat)](https://github.com/sendya/ant-design-pro-vue/blob/master/LICENSE)
-[![Release](https://img.shields.io/github/release/sendya/ant-design-pro-vue.svg?style=flat)](https://github.com/sendya/ant-design-pro-vue/releases/latest)
-[![Travis branch](https://travis-ci.org/sendya/ant-design-pro-vue.svg?branch=master)](https://travis-ci.org/sendya/ant-design-pro-vue)
-
-</div>
-
-- Preview: https://preview.pro.loacg.com
-- Home Page: https://pro.loacg.com
-- Documentation: https://pro.loacg.com/docs/getting-started
-- ChangeLog: https://pro.loacg.com/docs/changelog
-- FAQ: https://pro.loacg.com/docs/faq
-
-Overview
-----
+<h1 align="center">Meduo Application Framework</h1>
 
 ![dashboard + multi-tabs](https://static-2.loacg.com/open/static/github/20190224163345.jpg)
 
