@@ -5,13 +5,15 @@ A quick java web application framework based on Spring Cloud
 
 <h1 align="center">Meduo Application Framework</h1>
 
+![permission main](https://github.com/quick-meduo/meduo/blob/master/resources/images/main.png)
+
 ![dashboard + multi-tabs](https://github.com/quick-meduo/meduo/blob/master/resources/images/login.png)
 
-![dashboard + setting](https://static-2.loacg.com/open/static/github/20181126112124.png)
+![dashboard + setting](https://github.com/quick-meduo/meduo/blob/master/resources/images/userman.png)
 
-![user profile](https://static-2.loacg.com/open/static/github/20180916-134251.png)
+![user authorize](https://github.com/quick-meduo/meduo/blob/master/resources/images/authorize.png)
 
-![permission list](https://static-2.loacg.com/open/static/github/20180916-154937.png)
+
 
 
 ### Env and dependencies
