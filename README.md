@@ -35,8 +35,8 @@ A quick java web application framework based on Spring Cloud
 
 - Clone repo
 ```bash
-git clone https://github.com/sendya/ant-design-pro-vue.git
-cd ant-design-pro-vue
+git clone hhttps://github.com/quick-meduo/meduo.git
+cd frontend
 ```
 
 - Install dependencies
