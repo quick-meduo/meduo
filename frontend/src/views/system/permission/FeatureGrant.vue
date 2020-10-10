@@ -1,6 +1,6 @@
 <template>
   <a-modal
-    title="功能授权"
+    :title="title"
     style="top: 80px;"
     :width="1440"
     v-model="display"
@@ -51,6 +51,19 @@
           </a-row>
         </a-form>
       </div>
+      <div class="table-operator">
+        <a-button type="primary" icon="plus" @click="$refs.createPermGroup.add()">新建授权组</a-button>
+        <a-button icon="refresh" @click="serviceRefresh()">刷新数据</a-button>
+        <a-button type="dashed" @click="tableOption">{{ optionAlertShow && '关闭' || '开启' }}多选</a-button>
+        <a-dropdown v-if="selectedRowKeys.length > 0">
+          <a-menu slot="overlay">
+            <a-menu-item key="1"><a-icon type="delete" />删除</a-menu-item>
+          </a-menu>
+          <a-button style="margin-left: 8px">
+            批量操作 <a-icon type="down" />
+          </a-button>
+        </a-dropdown>
+      </div>
       <s-table
         ref="table"
         size="default"
@@ -92,35 +105,32 @@
         </div>
         <span slot="action" slot-scope="text, record">
           <template>
-            <a class="action">添加功能</a>
+            <a class="action">关联功能</a>
           </template>
         </span>
       </s-table>
+      <create-perm-group-form :service-id="svcId" ref="createPermGroup" @ok="handleIntenalOk"/>
     </a-card>
   </a-modal>
 </template>
 
 <script>
 import { STable, Ellipsis } from '@/components'
-import { findFeatureGroupsByServiceId, findFeatureGroups, listPage, findFeaturesByGroupId } from '@/api/feature-service'
+import { findPermissionGroupByServiceId } from '@/api/permission-service'
+import CreatePermGroupForm from '@/views/system/permission/CreatePermGroupForm'
 
 export default {
   name: 'FeatureGrant',
   components: {
     STable,
+    CreatePermGroupForm,
     Ellipsis
-  },
-  props: {
-    serviceId: {
-      type: String,
-      default: '',
-      required: true
-    }
   },
   data () {
     return {
       display: false,
-      svcId: this.serviceId,
+      title: '功能授权',
+      svcId: '',
       groupId: '',
       advanced: false,
       // 查询参数
@@ -155,7 +165,7 @@ export default {
             ...parameter,
             params: this.svcId
           }
-          return findFeatureGroupsByServiceId(query)
+          return findPermissionGroupByServiceId(query)
             .then(rsp => {
               return rsp.data
             })
@@ -184,28 +194,39 @@ export default {
           showSizeChanger: true,
           pageSizeOptions: ['5', '10', '15', '20', '40']
         }
-      }
+      },
+      selectedRowKeys: [],
+      selectedRows: [],
+
+      // custom table alert & rowSelection
+      options: {
+        alert: { show: true, clear: () => { this.selectedRowKeys = [] } },
+        rowSelection: {
+          selectedRowKeys: this.selectedRowKeys,
+          onChange: this.onSelectChange
+        }
+      },
+      optionAlertShow: true
     }
   },
   watch: {
     visible (newVal, oldVal) {
       this.display = newVal
     },
-    serviceId (newVal, oldVal) {
-      this.svcId = newVal
+    svcId (newVal, oldVal) {
       this.master.loadData = parameter => {
         const query = {
           ...parameter,
-          params: this.svcId
+          params: newVal
         }
-        return findFeatureGroupsByServiceId(query)
+        return findPermissionGroupByServiceId(query)
           .then(rsp => {
             return rsp.data
           })
       }
-      // this.$nextTick(() => {
-      //   this.$refs.table.refresh()
-      // })
+      this.$nextTick(() => {
+        this.$refs.table.refresh()
+      })
     },
     dataSource () {
       this.$forceUpdate()
@@ -221,8 +242,16 @@ export default {
     handleOk (e) {
       this.$emit('ok', e)
     },
+    handleIntenalOk (e) {
+      this.$refs.table.refresh()
+    },
     show (item) {
+      this.title = '功能授权 | ' + item.name
+      this.svcId = item.id
       this.display = true
+    },
+    hide () {
+      this.display = false
     },
     toggleAdvanced () {
       this.advanced = !this.advanced
@@ -240,7 +269,7 @@ export default {
             serviceId: this.svcId
           }
         }
-        return findFeatureGroups(query)
+        return findPermissionGroupByServiceId(query)
           .then(rsp => {
             return rsp.data
           })
@@ -252,12 +281,16 @@ export default {
     selectPage (pageNo, pageSize) {
       const page = {
         pageNo: pageNo,
+        serviceId: this.svcId,
         pageSize: pageSize
       }
-      listPage(page).then(rsp => {
+      findPermissionGroupByServiceId(page).then(rsp => {
         this.dataSource = rsp.data.data
         this.slave.pagination.total = rsp.data.total
         this.slave.pagination.current = rsp.data.pageNo
+      })
+      this.$nextTick(() => {
+        this.$refs.table.refresh()
       })
     },
     OnExpaned (expanded, record) {
@@ -276,12 +309,39 @@ export default {
         pageSize: pageSize,
         params: this.slave.record.id
       }
-      return findFeaturesByGroupId(query)
+      return findPermissionGroupByServiceId(query)
         .then(rsp => {
           this.slave.dataSource = rsp.data.data
           this.slave.pagination.total = rsp.data.total
           this.slave.pagination.current = rsp.data.pageNo
         })
+    },
+    tableOption () {
+      if (!this.optionAlertShow) {
+        this.options = {
+          alert: { show: true, clear: () => { this.selectedRowKeys = [] } },
+          rowSelection: {
+            selectedRowKeys: this.selectedRowKeys,
+            onChange: this.onSelectChange,
+            getCheckboxProps: record => ({
+              props: {
+                disabled: record.no === 'No 2', // Column configuration not to be checked
+                name: record.no
+              }
+            })
+          }
+        }
+        this.optionAlertShow = true
+      } else {
+        this.options = {
+          alert: false,
+          rowSelection: null
+        }
+        this.optionAlertShow = false
+      }
+    },
+    serviceRefresh () {
+      this.selectPage(this.master.pagination.current, this.master.pagination.pageSize)
     },
     expandIcon (props) {
       const {

@@ -35,6 +35,12 @@ public class PermissionGroupModel extends MeduoModel implements Serializable {
     private String id;
 
     /**
+     * 服务编号
+     */
+    @TableField(value = "service_id")
+    private String serviceId;
+
+    /**
      * 权限组名称
      */
     @TableField(value = "name")

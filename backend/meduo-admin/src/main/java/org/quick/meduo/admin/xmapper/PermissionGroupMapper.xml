@@ -5,6 +5,7 @@
     <!--@mbg.generated-->
     <!--@Table sys_permission_group-->
     <id column="id" jdbcType="VARCHAR" property="id" />
+    <id column="service_id" jdbcType="VARCHAR" property="serviceId" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="description" jdbcType="VARCHAR" property="description" />
     <result column="type" jdbcType="INTEGER" property="type" />

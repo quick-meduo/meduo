@@ -5,7 +5,7 @@
   >
     <div slot="extra">
       <a-radio-group>
-        <a-radio-button value="all" @click="$refs.createPermGroup.add()">创建授权组</a-radio-button>
+<!--        <a-radio-button value="all" @click="$refs.createPermGroup.add()">创建授权组</a-radio-button>-->
         <a-radio-button value="all" @click="serviceRefresh">刷新</a-radio-button>
       </a-radio-group>
       <a-input-search
@@ -68,7 +68,7 @@
       </template>
       <a-form :form="serviceModel.form">
         <a-form-item
-          label="SID"
+          label="服务唯一ID"
           hasFeedback
           :labelCol="{lg: {span: 4}, sm: {span: 4}}"
           :wrapperCol="{lg: {span: 17}, sm: {span: 17} }">
@@ -208,13 +208,15 @@
       </div>
     </a-modal>
     <feature-group
-      :visible="featureGroup.visible"
-      :serviceId="featureGroup.serviceId"
+      ref="featureGroup"
       @cancel="handleCancel"
       @ok="handleCancel"
       @close="handleCancel"/>
-    <create-perm-group-form ref="createPermGroup"/>
-    <feature-grant :service-id="featureGroup.serviceId" ref="featureGrant"/>
+    <feature-grant
+      @cancel="handleGrantCancel"
+      @ok="handleGrantCancel"
+      @close="handleGrantCancel"
+      ref="featureGrant"/>
   </a-card>
 </template>
 
@@ -223,13 +225,11 @@
 import { create, listPage, update, del, validateSid, findByFeatureKey } from '@/api/feature-service'
 import FeatureGroup from '@/views/system/permission/FeatureGroup'
 import FeatureGrant from '@/views/system/permission/FeatureGrant'
-import CreatePermGroupForm from '@/views/system/permission/CreatePermGroupForm'
 
 export default {
   name: 'FeatureList',
   components: {
     FeatureGroup,
-    CreatePermGroupForm,
     FeatureGrant
   },
   data () {
@@ -252,10 +252,6 @@ export default {
         },
         showSizeChanger: true,
         showQuickJumper: true
-      },
-      featureGroup: {
-        visible: false,
-        serviceId: ''
       },
       serviceModel: {
         visible: false,
@@ -404,15 +400,13 @@ export default {
       this.selectPage(this.pagination.current, this.pagination.pageSize)
     },
     FeatureGroupManage (record) {
-      if (this.featureGroup.visible === true) {
-        this.featureGroup.visible = false
-      } else {
-        this.featureGroup.serviceId = record.id
-        this.featureGroup.visible = true
-      }
+      this.$refs.featureGroup.show(record)
     },
     handleCancel (e) {
-      this.featureGroup.visible = false
+      this.$refs.featureGroup.hide()
+    },
+    handleGrantCancel(e) {
+      this.$refs.featureGrant.hide()
     },
     validateSid: (rule, value, callback) => {
       if (!value || value.trim() === '') {
@@ -463,7 +457,6 @@ export default {
       this.handleQuery()
     },
     handleFeatureGroupGrant (record) {
-      this.featureGroup.serviceId = record.id
       this.$refs.featureGrant.show(record)
     }
   },

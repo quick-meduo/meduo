@@ -1,6 +1,6 @@
 <template>
   <a-modal
-    title="功能管理"
+    :title="title"
     style="top: 80px;"
     :width="1440"
     v-model="display"
@@ -126,21 +126,11 @@ export default {
     CreateFeatureGroupForm,
     CreateFeatureForm
   },
-  props: {
-    visible: {
-      type: Boolean,
-      default: true
-    },
-    serviceId: {
-      type: String,
-      default: '',
-      required: true
-    }
-  },
   data () {
     return {
       display: this.visible,
-      svcId: this.serviceId,
+      svcId: '',
+      title: '',
       groupId: '',
       // 高级搜索 展开/关闭
       advanced: false,
@@ -229,28 +219,27 @@ export default {
           onChange: this.onSelectChange
         }
       },
-      optionAlertShow: false
+      optionAlertShow: true
     }
   },
   watch: {
     visible (newVal, oldVal) {
       this.display = newVal
     },
-    serviceId (newVal, oldVal) {
-      this.svcId = newVal
+    svcId (newVal, oldVal) {
       this.master.loadData = parameter => {
         const query = {
           ...parameter,
-          params: this.svcId
+          params: newVal
         }
         return findFeatureGroupsByServiceId(query)
           .then(rsp => {
             return rsp.data
           })
       }
-      // this.$nextTick(() => {
-      //   this.$refs.table.refresh()
-      // })
+      this.$nextTick(() => {
+        this.$refs.table.refresh()
+      })
     }
   },
   created () {
@@ -363,6 +352,14 @@ export default {
           })
       }
       return loadData
+    },
+    show (record) {
+      this.title = '功能管理 | ' + record.name
+      this.svcId = record.id
+      this.display = true
+    },
+    hide () {
+      this.display = false
     },
     handleEditFeature (record) {
       this.groupId = record.gid

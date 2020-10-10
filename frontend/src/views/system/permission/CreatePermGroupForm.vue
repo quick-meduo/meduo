@@ -68,6 +68,12 @@ import { create } from '@/api/permission-service'
 
 export default {
   name: 'CreateFeatureGroupForm',
+  props: {
+    serviceId: {
+      type: String,
+      required: true
+    }
+  },
   data () {
     return {
       expectExpiration: false,
@@ -99,6 +105,7 @@ export default {
             name: values.name,
             type: values.type,
             expirationDate: values.expirationDate,
+            serviceId: this.serviceId,
             description: values.description
           }
 

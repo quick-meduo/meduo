@@ -27,4 +27,5 @@ public class PermissionGroupBean {
     private String description;
     private PermissionGrantType type;
     private int expirationDate;
+    private String serviceId;
 }

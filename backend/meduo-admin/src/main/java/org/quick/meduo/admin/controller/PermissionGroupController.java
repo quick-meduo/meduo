@@ -21,10 +21,12 @@ import org.quick.meduo.admin.vo.PermissionGroupBean;
 import org.quick.meduo.core.annotations.ExecStrategy;
 import org.quick.meduo.core.constant.ApiConstants;
 import org.quick.meduo.core.http.AppStatus;
+import org.quick.meduo.core.http.Page;
 import org.quick.meduo.core.http.Result;
 import org.quick.meduo.tools.core.date.DateField;
 import org.quick.meduo.tools.core.date.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -55,6 +57,7 @@ public class PermissionGroupController {
         PermissionGroupModel perm = new PermissionGroupModel();
         perm.setDescription(model.getDescription());
         perm.setFrozen(false);
+        perm.setServiceId(model.getServiceId());
         perm.setType(model.getType());
         perm.setName(model.getName());
 
@@ -102,5 +105,15 @@ public class PermissionGroupController {
             return Result.ok(ApiConstants.OK_TO_DELETE_PERMGROUP);
         }
         return Result.error(ApiConstants.FAILD_TO_DELETE_PERMGROUP);
+    }
+
+    @ExecStrategy(IPermissionGroupStrategy.class)
+    @PutMapping(value="/findPermissionGroupByServiceId")
+    @Transactional
+    public Result findPermissionGroupByServiceId(@RequestBody Page<String> query) {
+        String serviceId = query.getParams();
+        LambdaQueryWrapper<PermissionGroupModel> queryWrapper = new LambdaQueryWrapper<PermissionGroupModel>().eq(PermissionGroupModel::getServiceId,serviceId);
+
+        return Result.ok(permissionGroupService.page(query,queryWrapper));
     }
 }
