@@ -40,6 +40,22 @@
 
 	<build>
 		<plugins>
+		  <plugin>
+					<groupId>org.owasp</groupId>
+					<artifactId>dependency-check-maven</artifactId>
+					<version>6.0.3</version>
+					<configuration>
+							<assemblyAnalyzerEnabled>false</assemblyAnalyzerEnabled>
+							<autoUpdate>true</autoUpdate>
+					</configuration>
+					<executions>
+							<execution>
+									<goals>
+											<goal>check</goal>
+									</goals>
+							</execution>
+					</executions>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>versions-maven-plugin</artifactId>
