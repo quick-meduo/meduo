@@ -1,6 +1,6 @@
 [English](./README.md) | 简体中文
 
-基于Spring Cloud的安全级应用快速开发框架
+基于Spring Cloud的安全级应用快速开发框架,快速构建服务化的安全应用，支持等保和分保应用开发
 
 <h1 align="center">Meduo安全级应用快速开发框架</h1>
 
@@ -71,7 +71,6 @@ yarn run lint
 
 ## 文档地址
 - V1.0 http://192.168.125.166:8880/dms/xxx
-
 
 其他说明
 ----
