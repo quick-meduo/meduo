@@ -54,13 +54,13 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
-			<version>2.2.1.RELEASE</version>
+			<version>2.2.7.RELEASE</version>
 		</dependency>
 		<!--turbine-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-turbine</artifactId>
-			<version>2.2.1.RELEASE</version>
+			<version>2.2.7.RELEASE</version>
 			<exclusions>
 				 <exclusion>
 					  <groupId>org.springframework.cloud</groupId>
