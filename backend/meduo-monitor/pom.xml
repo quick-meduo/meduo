@@ -26,13 +26,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
-			<version>2.2.2.RELEASE</version>
+			<version>2.5.15</version>
 		</dependency>
         <!--spring-boot-admin-->
         <dependency>
 		    <groupId>de.codecentric</groupId>
 		    <artifactId>spring-boot-admin-server</artifactId>
-		    <version>2.2.1</version>
+		    <version>3.1.0</version>
 		</dependency>
 		<dependency>
 		    <groupId>de.codecentric</groupId>
