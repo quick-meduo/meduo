@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
-			<version>2.2.2.RELEASE</version>
+			<version>3.4.9</version>
 		</dependency>
 		<!--consul-->
 	    <dependency>
@@ -48,7 +48,7 @@
        	<dependency>
 		    <groupId>de.codecentric</groupId>
 		    <artifactId>spring-boot-admin-starter-client</artifactId>
-			<version>2.2.1</version>
+			<version>3.4.2</version>
 		</dependency>
 		<!--hystrix-dashboard-->
 		<dependency>
